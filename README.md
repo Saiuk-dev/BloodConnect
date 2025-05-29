@@ -6,18 +6,14 @@ The platform offers a straightforward, user-friendly interface where users can e
 This project aims to bridge the gap between blood banks and people in need, making critical blood donation data accessible instantly and saving valuable time during emergencies.
 
 Key Features:
-
 Real-time updates on blood availability by blood type and location.
-
 Easy-to-use forms for requesting blood and registering as a donor.
-
 A simple and clean design to facilitate quick navigation, especially during urgent situations.
 
 Technologies Used:
-
 Frontend: HTML, CSS
-
 Backend: PHP
+Database: Mysql , XAMPP
 
 BloodConnect is a community-driven initiative to improve healthcare responsiveness and encourage timely blood donations And Further Contributions Are welcomed!!!
 
