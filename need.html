@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Need Blood</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff3f3;
+            padding: 20px;
+        }
+        h2 { color: #cc0000; }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        select, button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">Need Blood? Search Donors</h2>
+    <form action="search.php" method="POST">
+        <label for="blood_type">Select Blood Type:</label>
+        <select name="blood_type" required>
+            <option value="">--Select--</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+        <button type="submit">Find Donors</button>
+    </form>
+</body>
+</html>

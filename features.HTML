@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Benefits</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #ffe6e6;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #8a0000;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #cc0000;
+        }
+
+        h2 {
+            color: #cc0000;
+            margin-bottom: 1rem;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .benefit-card h3 {
+            color: #8a0000;
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #cc0000;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #990000;
+        }
+
+        .icon {
+            font-size: 2rem;
+            color: #cc0000;
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            background-color: #8a0000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>❤️ The Life-Saving Power of Blood Donation</h1>
+            <p>Every drop counts - Become a blood donor today!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Why Donate Blood?</h2>
+            <p>Blood donation is one of the most significant contributions a person can make to society. Just one donation can save up to three lives!</p>
+        </section>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">💓</div>
+                <h3>Health Benefits for Donors</h3>
+                <ul>
+                    <li>Reduces risk of heart disease</li>
+                    <li>Stimulates blood cell production</li>
+                    <li>Free health check-up</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card">
+                <div class="icon">🩸</div>
+                <h3>Saves Lives</h3>
+                <ul>
+                    <li>Helps accident victims</li>
+                    <li>Supports cancer treatments</li>
+                    <li>Essential for surgeries</li>
+                </ul>
+            </div>
+
+            <div class="benefit-card">
+                <div class="icon">🌍</div>
+                <h3>Community Impact</h3>
+                <ul>
+                    <li>Strengthens community health</li>
+                    <li>Creates a culture of giving</li>
+                    <li>Ensures blood supply stability</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="section">
+            <h2>Key Benefits of Blood Donation</h2>
+            <div class="benefits-list">
+                <h3>❤️ Health Advantages</h3>
+                <p>Regular blood donation helps reduce harmful iron stores in the body and lowers cardiovascular risk factors.</p>
+
+                <h3>🩺 Free Health Screening</h3>
+                <p>Every donor receives a free basic health check-up including blood pressure, hemoglobin levels, and disease screening.</p>
+
+                <h3>😊 Emotional Benefits</h3>
+                <p>Knowing you've helped save lives creates a sense of pride and emotional well-being.</p>
+            </div>
+
+            <a href="donate.html" class="cta-button">Become a Donor Today</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>❣️ Donate Blood - Save Lives! ❣️</p>
+            <p>Contact us: bloodbank@redcross.org | Emergency: 123-456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>
